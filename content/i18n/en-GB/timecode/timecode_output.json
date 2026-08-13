@@ -449,35 +449,6 @@
       }
     ]
   },
-  "pg002_n0014": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "FOR",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "ONLINE",
-            "start": 0.7599999904632568,
-            "end": 1.4600000381469727
-          },
-          {
-            "text": "READING",
-            "start": 1.4600000381469727,
-            "end": 2
-          },
-          {
-            "text": "ONLY",
-            "start": 2,
-            "end": 2.680000066757202
-          }
-        ]
-      }
-    ]
-  },
   "pg002_n0016": {
     "timecodes": [
       null,
@@ -2877,35 +2848,6 @@
             "text": "Education",
             "start": 2.180000066757202,
             "end": 2.5399999618530273
-          }
-        ]
-      }
-    ]
-  },
-  "pg005_n0029": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "FOR",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "ONLINE",
-            "start": 0.7599999904632568,
-            "end": 1.4600000381469727
-          },
-          {
-            "text": "READING",
-            "start": 1.4600000381469727,
-            "end": 2
-          },
-          {
-            "text": "ONLY",
-            "start": 2,
-            "end": 2.680000066757202
           }
         ]
       }
@@ -13001,35 +12943,6 @@
       }
     ]
   },
-  "pg012_n0037": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "FOR",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "ONLINE",
-            "start": 0.7599999904632568,
-            "end": 1.4600000381469727
-          },
-          {
-            "text": "READING",
-            "start": 1.4600000381469727,
-            "end": 2
-          },
-          {
-            "text": "ONLY",
-            "start": 2,
-            "end": 2.680000066757202
-          }
-        ]
-      }
-    ]
-  },
   "pg013_n0002": {
     "timecodes": [
       null,
@@ -14928,35 +14841,6 @@
             "text": "appropriate",
             "start": 4.760000228881836,
             "end": 4.820000171661377
-          }
-        ]
-      }
-    ]
-  },
-  "pg013_n0037": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "FOR",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "ONLINE",
-            "start": 0.7599999904632568,
-            "end": 1.4600000381469727
-          },
-          {
-            "text": "READING",
-            "start": 1.4600000381469727,
-            "end": 2
-          },
-          {
-            "text": "ONLY",
-            "start": 2,
-            "end": 2.680000066757202
           }
         ]
       }
@@ -55256,35 +55140,6 @@
       }
     ]
   },
-  "pg043_n0066": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "FOR",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "ONLINE",
-            "start": 0.7599999904632568,
-            "end": 1.4600000381469727
-          },
-          {
-            "text": "READING",
-            "start": 1.4600000381469727,
-            "end": 2
-          },
-          {
-            "text": "ONLY",
-            "start": 2,
-            "end": 2.680000066757202
-          }
-        ]
-      }
-    ]
-  },
   "pg044_n0002": {
     "timecodes": [
       null,
@@ -63819,35 +63674,6 @@
             "text": "partners",
             "start": 8.15999984741211,
             "end": 8.460000038146973
-          }
-        ]
-      }
-    ]
-  },
-  "pg050_n0010": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "FOR",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "ONLINE",
-            "start": 0.7599999904632568,
-            "end": 1.4600000381469727
-          },
-          {
-            "text": "READING",
-            "start": 1.4600000381469727,
-            "end": 2
-          },
-          {
-            "text": "ONLY",
-            "start": 2,
-            "end": 2.680000066757202
           }
         ]
       }
@@ -79831,35 +79657,6 @@
             "text": "objects",
             "start": 2.5399999618530273,
             "end": 2.880000114440918
-          }
-        ]
-      }
-    ]
-  },
-  "pg064_n0022": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "FOR",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "ONLINE",
-            "start": 0.7599999904632568,
-            "end": 1.4600000381469727
-          },
-          {
-            "text": "READING",
-            "start": 1.4600000381469727,
-            "end": 2
-          },
-          {
-            "text": "ONLY",
-            "start": 2,
-            "end": 2.680000066757202
           }
         ]
       }
@@ -97510,35 +97307,6 @@
             "text": "11",
             "start": 1.022,
             "end": 1.254
-          }
-        ]
-      }
-    ]
-  },
-  "pg078_n0036": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "FOR",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "ONLINE",
-            "start": 0.7599999904632568,
-            "end": 1.4600000381469727
-          },
-          {
-            "text": "READING",
-            "start": 1.4600000381469727,
-            "end": 2
-          },
-          {
-            "text": "ONLY",
-            "start": 2,
-            "end": 2.680000066757202
           }
         ]
       }
