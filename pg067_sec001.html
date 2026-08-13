@@ -64,40 +64,43 @@
     </p>
 
     <div class="mb-5 w-full overflow-x-auto">
-      <table class="w-full min-w-[760px] border-collapse border border-sky-400 bg-white max-sm:min-w-[640px]">
+      <table aria-labelledby="pg067-shopping-table-caption" class="w-full min-w-[760px] border-collapse border border-sky-400 bg-white max-sm:min-w-[640px]">
+        <caption id="pg067-shopping-table-caption" class="sr-only">Shopping list: item, quantity, unit price in shillings, and subtotal in shillings</caption>
         <colgroup>
           <col class="w-[25%]">
           <col class="w-[15%]">
           <col class="w-[30%]">
           <col class="w-[30%]">
         </colgroup>
-        <tbody>
+        <thead>
           <tr class="bg-sky-100">
-            <th class="border border-sky-400 px-3 py-3 text-left font-bold adt-body text-slate-900 align-middle"><span data-id="pg067_n0028">Item</span></th>
-            <th class="border border-sky-400 px-3 py-3 text-center font-bold adt-body text-slate-900 align-middle"><span data-id="pg067_n0030">Quantity</span></th>
-            <th class="border border-sky-400 px-3 py-3 text-center font-bold adt-body text-slate-900 align-middle"><span data-id="pg067_n0032">Unit price (shillings)</span></th>
-            <th class="border border-sky-400 px-3 py-3 text-center font-bold adt-body text-slate-900 align-middle"><span data-id="pg067_n0034">Sub-total (shillings)</span></th>
+            <th scope="col" class="border border-sky-400 px-3 py-3 text-left font-bold adt-body text-slate-900 align-middle"><span data-id="pg067_n0028">Item</span></th>
+            <th scope="col" class="border border-sky-400 px-3 py-3 text-center font-bold adt-body text-slate-900 align-middle"><span data-id="pg067_n0030">Quantity</span></th>
+            <th scope="col" class="border border-sky-400 px-3 py-3 text-center font-bold adt-body text-slate-900 align-middle"><span data-id="pg067_n0032">Unit price (shillings)</span></th>
+            <th scope="col" class="border border-sky-400 px-3 py-3 text-center font-bold adt-body text-slate-900 align-middle"><span data-id="pg067_n0034">Sub-total (shillings)</span></th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
-            <td class="border border-sky-400 px-3 py-2 adt-body align-middle"><span data-id="pg067_n0037">Pen</span></td>
+            <th scope="row" class="border border-sky-400 px-3 py-2 text-left font-normal adt-body align-middle"><span data-id="pg067_n0037">Pen</span></th>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body align-middle"><span data-id="pg067_n0039">3</span></td>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body align-middle"><span data-id="pg067_n0041">300/=</span></td>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body align-middle"><span data-id="pg067_n0043">900/=</span></td>
           </tr>
           <tr>
-            <td class="border border-sky-400 px-3 py-2 adt-body align-middle"><span data-id="pg067_n0046">Ruler</span></td>
+            <th scope="row" class="border border-sky-400 px-3 py-2 text-left font-normal adt-body align-middle"><span data-id="pg067_n0046">Ruler</span></th>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body align-middle"><span data-id="pg067_n0048">1</span></td>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body align-middle"><span data-id="pg067_n0050">500/=</span></td>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body align-middle"><span data-id="pg067_n0052">500/=</span></td>
           </tr>
           <tr>
-            <td class="border border-sky-400 px-3 py-2 adt-body align-middle"><span data-id="pg067_n0055">Sweet</span></td>
+            <th scope="row" class="border border-sky-400 px-3 py-2 text-left font-normal adt-body align-middle"><span data-id="pg067_n0055">Sweet</span></th>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body align-middle"><span data-id="pg067_n0057">2</span></td>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body align-middle"><span data-id="pg067_n0059">100/=</span></td>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body align-middle"><span data-id="pg067_n0061">200/=</span></td>
           </tr>
           <tr>
-            <td class="border border-sky-400 px-3 py-2 adt-body font-bold italic align-middle"><span data-id="pg067_n0064">Total</span></td>
+            <th scope="row" class="border border-sky-400 px-3 py-2 text-left adt-body font-bold italic align-middle"><span data-id="pg067_n0064">Total</span></th>
             <td class="border border-sky-400 px-3 py-2 adt-body"></td>
             <td class="border border-sky-400 px-3 py-2 adt-body"></td>
             <td class="border border-sky-400 px-3 py-2 text-center adt-body font-bold align-middle"><span data-id="pg067_n0068">1600/=</span></td>
