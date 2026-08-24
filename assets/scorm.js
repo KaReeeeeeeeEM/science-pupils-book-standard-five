@@ -116,3 +116,14 @@
     });
   }
 })();
+
+// Load the source-faithful reusable page shell on every ADT page. This is kept
+// separate from the generated reader runtime so the book layout remains
+// maintainable and can be revised without rebuilding the bundle.
+(function loadBookLayout() {
+  if (document.querySelector('script[data-book-layout]')) return;
+  var script = document.createElement('script');
+  script.src = './assets/book-layout.js?v=20260824-40';
+  script.dataset.bookLayout = 'true';
+  document.head.appendChild(script);
+})();

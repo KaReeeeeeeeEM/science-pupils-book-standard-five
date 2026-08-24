@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Female reproductive system</title>
+  <desc id="desc">Female reproductive system labelled with the fallopian tube, ovary, uterus, uterine muscles, cervix, vagina and vulva.</desc>
+  <rect width="800" height="500" fill="white"/>
+  <image href="pg042_im001.png" x="35" y="10" width="455" height="455" preserveAspectRatio="xMidYMid meet"/>
+  <g fill="none" stroke="#222" stroke-width="2">
+    <path d="M415 80 H555"/><path d="M407 151 H555"/><path d="M330 225 H555"/><path d="M345 273 H555"/>
+    <path d="M320 324 H555"/><path d="M330 392 H555"/><path d="M343 454 H555"/>
+  </g>
+  <g fill="#222" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    <text x="565" y="87">Fallopian tube</text><text x="565" y="158">Ovary</text><text x="565" y="232">Uterus</text>
+    <text x="565" y="280">Uterine muscles</text><text x="565" y="331">Cervix</text><text x="565" y="399">Vagina</text><text x="565" y="461">Vulva</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="270" viewBox="0 0 650 270">
+  <rect width="650" height="270" fill="#fff"/>
+  <image href="pg061_book_dynamo_bicycle.png" x="38" y="4" width="273" height="254" preserveAspectRatio="xMidYMid meet"/>
+  <image href="pg061_book_dynamo_cutaway.png" x="435" y="1" width="130" height="258" preserveAspectRatio="xMidYMid meet"/>
+  <g fill="none" stroke="#292526" stroke-width="1.25">
+    <path d="M119 64 H208"/>
+    <path d="M168 244 L215 230"/>
+    <path d="M568 25 L548 38"/>
+    <path d="M588 67 H505"/>
+    <path d="M494 83 L510 139 M494 83 L540 139"/>
+    <path d="M430 156 L475 157"/>
+    <path d="M465 224 L510 218"/>
+  </g>
+  <g fill="#292526" font-family="Arial, Helvetica, sans-serif" font-size="16">
+    <text x="79" y="69">Lamp</text>
+    <text x="147" y="262">Wires</text>
+    <text x="570" y="31">Tyre</text>
+    <text x="591" y="72">Spindle</text>
+    <text x="434" y="87">Magnets</text>
+    <text x="400" y="160">Coil</text>
+    <text x="403" y="220">Wires to</text>
+    <text x="403" y="238">lamp</text>
+  </g>
+</svg>

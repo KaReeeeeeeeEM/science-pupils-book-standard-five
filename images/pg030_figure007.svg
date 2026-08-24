@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="521" viewBox="0 0 940 521">
+  <rect width="940" height="521" fill="#fff"/>
+  <image href="pg030_im001.jpg" x="0" y="0" width="642" height="521"/>
+  <g fill="none" stroke="#222" stroke-width="2">
+    <path d="M501 136 L675 136"/>
+    <path d="M318 391 L318 337"/>
+  </g>
+  <g fill="#181818" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    <text x="680" y="143">Menstruation</text>
+    <text x="267" y="329">Ovulation</text>
+  </g>
+</svg>
