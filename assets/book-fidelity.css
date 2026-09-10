@@ -1747,6 +1747,29 @@ section[data-section-id="pg001_sec001"] figure img {
   transform: none;
 }
 
+/* The imported front-cover artwork occupies the complete trimmed page. */
+section[data-section-id="pg001_sec001"][data-cover-position="front"] figure {
+  position: static !important;
+  inset: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+section[data-section-id="pg001_sec001"][data-cover-position="front"] figure img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+}
+
+/* Images receive this runtime class only while their TTS description plays. */
+img[data-id="pg001_im002"].tts-active-block {
+  outline: 2px solid #facc15 !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 1px rgba(250, 204, 21, 0.25) !important;
+}
+
 #content section[data-section-id="pg001_sec001"] > p {
   position: absolute !important;
   top: 823px;

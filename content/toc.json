@@ -6,6 +6,12 @@
     "chapter_id": "pg001_n0002"
   },
   {
+    "section_id": "pg001_sec002",
+    "href": "pg001_sec002.html",
+    "title": "Certificate of Approval",
+    "chapter_id": "pg001_gp002_tx001"
+  },
+  {
     "section_id": "pg003_sec001",
     "href": "pg003_sec001.html",
     "title": "Table of Contents",
@@ -484,5 +490,11 @@
     "href": "pg088_sec001.html",
     "title": "Glossary",
     "chapter_id": "pg088_n0002"
+  },
+  {
+    "section_id": "pg089_sec001",
+    "href": "pg089_sec001.html",
+    "title": "Back cover",
+    "chapter_id": "pg089_im001"
   }
 ]

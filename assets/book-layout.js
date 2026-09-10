@@ -8,6 +8,7 @@
   const physicalPage = Number(match[1]);
   const section = document.querySelector('#content > section');
   if (!section) return;
+  if (section.dataset.coverPosition === 'back') return;
 
   if (physicalPage >= 7 && !window.__bookStandardTypeObserver) {
     const standardizeBodyType = () => {
@@ -29,42 +30,6 @@
     standardizeBodyType();
     window.__bookStandardTypeObserver = new MutationObserver(standardizeBodyType);
     window.__bookStandardTypeObserver.observe(document.body, {
-      childList: true,
-      subtree: true
-    });
-  }
-
-  // This conversion is a static book, so suppress the ADT activity submit
-  // control without changing the reader's navigation or accessibility tools.
-  const suppressRuntimeSubmit = () => {
-    document.querySelectorAll('button').forEach((button) => {
-      if (button.textContent.trim() === 'Submit') {
-        button.classList.add('book-runtime-submit');
-      }
-    });
-  };
-  suppressRuntimeSubmit();
-  new MutationObserver(suppressRuntimeSubmit).observe(document.body, {
-    childList: true,
-    subtree: true
-  });
-
-  const styleContentsChapterLabels = () => {
-    if (physicalPage !== 3 && physicalPage !== 4) return;
-    section.querySelectorAll('[data-id]').forEach((element) => {
-      if (element.querySelector('.book-chapter-prefix')) return;
-      const chapter = element.textContent.match(/^(Chapter\s+(?:One|Two|Three|Four|Five):)(\s*.*)$/);
-      if (!chapter) return;
-      const prefix = document.createElement('span');
-      prefix.className = 'book-chapter-prefix';
-      prefix.textContent = chapter[1];
-      element.replaceChildren(prefix, document.createTextNode(chapter[2]));
-    });
-  };
-
-  styleContentsChapterLabels();
-  if (physicalPage === 3 || physicalPage === 4) {
-    new MutationObserver(styleContentsChapterLabels).observe(section, {
       childList: true,
       subtree: true
     });
@@ -142,12 +107,6 @@
     }
   });
 
-  const footer = document.createElement('footer');
-  footer.className = 'book-standard-footer';
-  footer.setAttribute('aria-label', `Page ${visibleNumber}`);
-  footer.innerHTML = [
-    '<span class="book-footer-line"></span>',
-    `<span class="book-footer-badge"><span>${visibleNumber}</span></span>`
-  ].join('');
-  section.append(footer);
+  // Keep the page number exclusively in the ADT reader's bottom bar. The
+  // source-page footer is hidden above to prevent two competing page numbers.
 })();
