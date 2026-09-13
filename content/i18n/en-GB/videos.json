@@ -1,4 +1,5 @@
 {
+  "video-1": "cover-page-001.mp4",
   "video-2": "page-001.mp4",
   "video-3": "page-002.mp4",
   "video-4": "page-003.mp4",
@@ -51,7 +52,7 @@
   "video-51": "page-050.mp4",
   "video-52": "page-051.mp4",
   "video-53": "page-052.mp4",
-  "video-54": "page-053.mp4",
+  "video-54": "page-053-replacement.mp4",
   "video-55": "page-054.mp4",
   "video-56": "page-055.mp4",
   "video-57": "page-056.mp4",
@@ -86,5 +87,6 @@
   "video-86": "page-085.mp4",
   "video-87": "page-086.mp4",
   "video-88": "page-087.mp4",
-  "video-89": "page-088.mp4"
+  "video-89": "page-088.mp4",
+  "video-90": "cover-page-090.mp4"
 }
