@@ -5661,3 +5661,16 @@ section[data-section-id="pg005_sec001"] img[src*="signature"] {
     --book-page-width: 100vw;
   }
 }
+
+/* Reflow the dynamo lesson on narrow screens without clipping its experiment. */
+@media (max-width: 665px) {
+  #content:has(> section[data-section-id="pg061_sec001"]) {
+    --book-page-width: 100vw;
+    height: auto !important;
+  }
+
+  #content > section[data-section-id="pg061_sec001"] {
+    height: auto !important;
+    max-height: none !important;
+  }
+}
