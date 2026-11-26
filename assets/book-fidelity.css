@@ -1520,16 +1520,12 @@ section[data-section-id="pg007_sec001"] > header + div h3 {
   font-size: 14.8px !important;
 }
 
-/* The source is a static pupil's book, not an answer-entry application. */
-#content input,
-#content textarea,
-#content button[type="submit"] {
-  display: none !important;
-}
-
-/* Remove the generated answer-entry shells as well as their controls. */
-#content [data-question-response] > div:has(> textarea) {
-  display: none !important;
+/* Put the keyboard focus ring around the full answer label, including labels
+   whose native radio is visually hidden. */
+#content .activity-option:focus-visible,
+#content .activity-option:has(input:focus-visible) {
+  outline: 3px solid #1d4ed8 !important;
+  outline-offset: 2px !important;
 }
 
 /* Printed page 8: compact revision layout and measured vertical rhythm. */
@@ -1610,16 +1606,8 @@ section[data-section-id="pg007_sec001"] > header + div h3 {
   background: #d3d6d9 !important;
 }
 
-#content section[data-section-id="pg015_sec001"] [data-activity-kind="activity_true_false"] .activity-option {
-  display: none !important;
-}
-
 #content section[data-section-id="pg015_sec001"] [data-question-response] > div {
   display: block !important;
-}
-
-#content section[data-section-id="pg015_sec001"] [data-question-response] textarea {
-  display: none !important;
 }
 
 #content section[data-section-id="pg015_sec001"] :is(.mt-5, .mt-4, .mt-3) {
@@ -2524,10 +2512,6 @@ section[data-section-id="pg005_sec001"] img[src*="signature"] {
   text-align: justify !important;
 }
 
-#content section[data-section-id="pg058_sec001"] textarea {
-  display: none !important;
-}
-
 #content section[data-section-id="pg058_sec001"] > div.border-2 {
   overflow: hidden !important;
   margin-bottom: 10px !important;
@@ -3078,10 +3062,6 @@ section[data-section-id="pg005_sec001"] img[src*="signature"] {
   color: #252525 !important;
 }
 
-#content section[data-section-id="pg062_sec001"] textarea {
-  display: none !important;
-}
-
 #content section[data-section-id="pg062_sec001"] > figure:first-of-type {
   margin: 0 !important;
   padding: 10px 12px 4px !important;
@@ -3309,11 +3289,6 @@ section[data-section-id="pg005_sec001"] img[src*="signature"] {
   border-radius: 0 !important;
   background: transparent !important;
   line-height: 1.25 !important;
-}
-
-#content section[data-section-id="pg063_sec001"] .activity-option input,
-#content section[data-section-id="pg063_sec001"] textarea {
-  display: none !important;
 }
 
 #content section[data-section-id="pg063_sec001"] .activity-option span {
@@ -3915,13 +3890,6 @@ section[data-section-id="pg005_sec001"] img[src*="signature"] {
   border-radius: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
-}
-
-#content .p42-exercise input[type="radio"],
-#content .p43-exercise input[type="radio"],
-#content .p43-exercise input[type="text"],
-#content .p43-exercise textarea {
-  display: none !important;
 }
 
 #content .p42-exercise span,
@@ -5673,5 +5641,23 @@ section[data-section-id="pg005_sec001"] img[src*="signature"] {
     max-width: 7.5rem !important;
     height: clamp(2.25rem, 11vw, 2.5rem) !important;
     padding-inline: 0.35rem !important;
+  }
+}
+
+/* Let interactive pages grow when their answer fields extend beyond the print
+   page, and keep those fields reachable on a narrow screen. */
+#content:has(> section[data-section-type^="activity"]) {
+  height: auto !important;
+  max-height: none !important;
+}
+
+#content > section[data-section-type^="activity"] {
+  height: auto !important;
+  max-height: none !important;
+}
+
+@media (max-width: 665px) {
+  #content:has(> section:is([data-section-type^="activity"], [data-cover-position])) {
+    --book-page-width: 100vw;
   }
 }
